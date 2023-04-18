@@ -13,8 +13,8 @@ This is a simple backend CRUD using laravel framework.
 - Docker
 
 ## How to run on local server
-  **Run by docker**
-  - docker-compose up -d
-  **to show information about the state of your active services.**
-  - docker-compose ps
+
+This project using Docker to running the service. To run in local please run thi command.
+
+- docker-compose up -d
 
