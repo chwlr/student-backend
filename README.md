@@ -20,3 +20,7 @@ To check the running services, simple using this command
 
 - docker-compose ps
 
+To shutdown
+
+- docker-compose down
+
