@@ -22,7 +22,27 @@ To check the running services, simple using this command
 
 - docker-compose ps
 
-To shutdown
+- docker-compose exec app rm -rf vendor composer.lock
+
+- docker-compose exec app composer install
+
+- docker-compose exec app php artisan key:generate
+
+## To test on Postman
+
+**Store**
+- POST > http://localhost:8000/api/student
+**Get all list**
+- GET > http://localhost:8000/api/students
+**Update**
+- PUT > http://localhost:8000/api/student/{$uuid}
+**Delete**
+- Delete > http://localhost:8000/api/student/{$uuid}
+
+
+
+## To shutdown the service
 
 - docker-compose down
+
 
