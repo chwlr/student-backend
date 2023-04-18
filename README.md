@@ -14,6 +14,8 @@ This is a simple backend CRUD using laravel framework.
 
 This project using Docker to running the service. To run in local, please run this command.
 
+- docker-compose build app
+
 - docker-compose up -d
 
 To check the running services, simple using this command

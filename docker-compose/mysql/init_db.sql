@@ -6,5 +6,7 @@ CREATE TABLE `students` (
   `full_name` varchar(255) NOT NULL,
   `phone_number` varchar(12) NOT NULL,
   `city` varchar(20) NOT NULL,
+  `created_at` datetime,
+  `updated_at` datetime,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB
