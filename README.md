@@ -32,10 +32,13 @@ To check the running services, simple using this command
 
 **Store**
 - POST > http://localhost:8000/api/student
+
 **Get all list**
 - GET > http://localhost:8000/api/students
+
 **Update**
 - PUT > http://localhost:8000/api/student/{$uuid}
+
 **Delete**
 - Delete > http://localhost:8000/api/student/{$uuid}
 
